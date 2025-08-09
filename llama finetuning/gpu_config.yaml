@@ -1,0 +1,10 @@
+deepspeed:
+  config_file: ds_config.json
+  enabled: true
+  extra_args: []
+num_gpus: 4
+physical_gpus: 0,1,2,3
+training:
+  cluster_labeling: false
+  debug: true
+  num_trials: 10
