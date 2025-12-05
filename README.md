@@ -4,4 +4,4 @@
 - Create Synthetic DMs - uses gpt 4o to apply style transfer to Reddit posts to create synthetic DMs.
 
 Everything else is not being actively used
-- the scripts in the llama finetuning folder were my attempt at finetuning with all of the examples using a binary classification head. These did not perform as well compared to using few shot instruction finetuning (the few shot scripts)
+- the scripts in the llama finetuning folder were my attempt at finetuning with all of the examples using a custom binary classification head. These did not perform as well compared to using few shot instruction finetuning (the few shot scripts)
